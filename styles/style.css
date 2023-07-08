@@ -1,0 +1,33 @@
+/* shared styles */
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+/* Navigation bar */
+nav>ul{
+    display: flex;
+    float: left;
+}
+nav>ul>li{
+    list-style: none;
+    text-align: center;
+}
+nav>ul>li>a{
+    text-decoration: none;
+}
+.btn{
+    width: 150px;
+    height: 64px;
+    flex-shrink: 0;
+}
+.list-item{
+    margin-left: 51px;
+}
+.logo{
+    margin-right: 633px;
+    color: #181818;
+    font-family: Open Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
